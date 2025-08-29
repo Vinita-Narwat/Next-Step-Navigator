@@ -1,14 +1,51 @@
-div{
-    height: 60px;}
 #logo{
     height: 60px ;
 }
+
 img{
     padding-right: 350px;
 }
+
 a{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 25px;
-    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#navbar{
+    height: 60px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+
+#signin{
+    background-color: rgb(64, 64, 219);
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+}
+
+#start{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(64, 64, 219);
+}
+
+#main{
+    width:50vw;
+    display:inline;
+    float: left;
+    
+ 
+}
+
+#image{
+    border-radius: 50%;
+    width: 500px;
+    height:500px;
+    float: right;
+    background-image: url("Home image 3.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+   
 }
