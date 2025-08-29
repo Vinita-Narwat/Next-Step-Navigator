@@ -35,17 +35,17 @@ a{
     width:50vw;
     display:inline;
     float: left;
-    float: left;
+    
  
 }
 
 #image{
     border-radius: 50%;
-    width:30vw;
-    float: left;
+    width: 500px;
+    height:500px;
+    float: right;
     background-image: url("Home image 3.avif");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: black;
- 
+   
 }
