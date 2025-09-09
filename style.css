@@ -9,6 +9,15 @@ img{
 a{
     margin-left: 20px;
     margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover{
+    color:blueviolet;
+    text-shadow: 2px 2px 4px rgb(108, 231, 250);
+    text-decoration: underline;
 }
 
 #navbar{
@@ -23,29 +32,39 @@ a{
     width: 100px;
     height: 30px;
     margin-left: auto;
+    color: antiquewhite;
 }
 
 #start{
     width: 100px;
     height: 40px;
     background-color: rgb(64, 64, 219);
+    color: antiquewhite;
 }
 
 #main{
     width:50vw;
     display:inline;
     float: left;
-    
- 
 }
 
-#image{
-    border-radius: 50%;
-    width: 500px;
-    height:500px;
+#image {
     float: right;
     background-image: url("Home image 3.avif");
     background-size: contain;
     background-repeat: no-repeat;
-   
+    margin-top: 60px;
+    margin-right: 100px;
+    height: 500px;
+    width: 500px;
+    border-radius:50%;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+marquee{
+    behavior:"alternate";
+    direction:"left";
 }
