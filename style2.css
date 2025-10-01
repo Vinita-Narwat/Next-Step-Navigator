@@ -1,0 +1,126 @@
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+#logo {
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a:hover {
+  color: blueviolet;
+  text-shadow: 2px 2px 4px rgb(108, 231, 250);
+  text-decoration: underline;
+}
+
+#signin {
+  background-color: rgb(64, 64, 219);
+  width: 100px;
+  height: 30px;
+  color: antiquewhite;
+  margin-right: 200px;
+}
+
+
+#main {
+  margin-top: 120px;
+  padding: 20px;
+  width: 50vw;
+  float: left;
+}
+
+#start {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(64, 64, 219);
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: brown;
+}
+
+marquee {
+  margin-top: 20px;
+}
+
+pre {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+#image-wrapper {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: right;
+  margin: 120px 100px 0 0;
+}
+
+#image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newline {
+  clear: both;
+  text-align: center;
+  margin-top: 40px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+  width: calc(354px * 3 + 60px); /* 3 items + margins */
+  overflow: hidden;
+  margin: 40px auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.options {
+  width: 354px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 14px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.options img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+}
