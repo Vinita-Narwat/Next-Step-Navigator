@@ -78,7 +78,7 @@ pre {
   border-radius: 50%;
   overflow: hidden;
   float: right;
-  margin: 120px 100px 0 0;
+  margin: 120px 300px 0 0;
 }
 
 #image-wrapper img {
@@ -124,3 +124,22 @@ body {
   object-fit: cover;
   border-radius: 14px;
 }
+#image-wrapper {
+  position: relative;
+}
+
+#image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#image-wrapper img.active {
+  opacity: 1;
+}
+
