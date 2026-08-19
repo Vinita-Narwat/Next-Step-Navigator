@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ <div id="navbar">
+  <img id="logo" src="img/logo.jpg" alt="Next Step Navigator logo" >
+
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#content">Services</a>
+    <a href="#contact-info">Contact Us</a>
+    <a href="#" id="feedbacklink">Feedback</a>
+  </div>
+
+  <!-- ✅ Wrapper banaya -->
+  <div class="right-section">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search here...">
+    </div>
+    <button id="signin">Sign in</button>
+  </div>
+</div>
+
+
+  <button id="signin">Sign in</button>
+</div>
+<div id="signinPopup" class="popup-overlay">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closeSigninPopup()">&times;</span>
+
+    <form id="signinForm">
+      <div>
+        <h1><u>Create An Account</u></h1>
+      </div>
+      <div>
+        <label for="Name">Name</label>
+        <input id="Name" type="text" placeholder="Enter Your Name" required>
+      </div><br>
+      <div>
+        <label for="Dob">Date Of Birth</label>
+        <input id="Dob" type="date" required>
+      </div><br>
+      <div>
+       <label for="contactNo">Contact No.</label>
+<input id="contactNo" type="tel" placeholder="Enter Your No." required>
+
+      </div><br>
+      <div>
+       <label for="emailId">Email Id</label>
+<input id="emailId" type="email" placeholder="Enter Your Email" required>
+
+      </div><br>
+      <div>
+         <label for="prefeerences">Your Preferences</label>
+        <textarea id="preferences" rows="4" placeholder="Your preferences" required></textarea>
+      </div>
+      <div>
+        
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
+  </div>
+</div>
+
+
+<div id="feedbackPopup" class="popup-overlay">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <form id="feedbackForm">
+  <h3>We’d love your feedback!</h3>
+  <input id="feedbackName" type="text" placeholder="Your Name" required>
+  <input id="feedbackEmail" type="email" placeholder="Your Email" required>
+  <textarea id="feedbackText" rows="4" placeholder="Your Feedback" required></textarea>
+  <button type="submit">Submit</button>
+</form>
+
+  </div>
+</div>
+
+   <div ><div id="main">
+    <br><br><br>
+    <h1>Get Right Career Options With Next Step Navigator</h1>
+    <hr /><br>
+    <marquee behavior="alternate">
+      <pre>Discover your talent and passion           Implement your career plan rationally</pre>
+    </marquee>
+    <br><br><br>
+    <div id="start"><a href="#carousel-container">Get Started</a></div>
+  </div>
+
+  <div id="image-wrapper">
+    <img src="img/Home image 3.avif" alt="Career Image" />
+    <img src="img/Home image 1.jpg">
+    <img src="img/Home image 4.png">
+    <img src="img/Home image 2.png">
+    <img src="img/Home image 5.jpg">
+    <img src="img/Home image 6.png">
+  </div>
+<br><br><br>
+ </div>
+
+<div id="content"><b>🚀 Unlock Your Future. Build the Career You Deserve.</b><br><br>
+The world is changing—fast. New industries are emerging, technologies are evolving, and opportunities are multiplying. Whether you're just starting out or ready to pivot, your future is waiting to be shaped by you.
+At Next Step Navigator, we believe in potential. We’re here to help you discover your strengths, explore new paths, and prepare for tomorrow’s careers—today.
+<br><br>
+<b>🌟 Why settle for ordinary when you can be extraordinary?</b>
+
+<ul><li>Learn the skills that matter</li>
+<li>Connect with mentors who’ve been there</li>
+<li>Explore industries with real growth potential</li>
+<li>Get inspired by success stories from people just like you</li></ul>
+Your journey doesn’t end with a job—it begins with a vision. Let’s navigate the future together. One step, one skill, one breakthrough at a time. <br>
+🔗 Start exploring. Start growing. Start believing.
+<br><br>
+<table>
+  <thead>
+    <tr>
+      <td><b>Problem</b></td>
+      <td><b>Solution</b></td>
+    </tr></thead>
+    <tbody>
+    <tr>
+      <td>Choosing The Right Career Path</td>
+      <td>Provide detailed information on various career options, including required skills, qualifications, and job prospects.</td>
+    </tr>
+  <tr>
+    <td>Selecting the right course</td>
+    <td>Offer comprehensive information on various courses and colleges, including fees, duration, eligibility criteria, and job opportunities. </td>
+  </tr>
+  <tr><td>
+Career Advancement and Growth
+  </td>
+  <td>
+Offer guidance on career growth, professional networking, and personal branding. 
+  </td></tr>
+  <tr><td>
+Developing personal and professional skills
+  </td>
+  <td>
+     Offer resources on skill development courses, workshops, and webinars. 
+  </td></tr>
+  <tr><td>
+Internships and job opportunities
+  </td>
+  <td>
+    Provide information on internships, job openings, and career opportunities. 
+  </td></tr>
+  </tbody>
+</table><br><br>
+</div>
+
+<div ><div class="newline">
+    <br><br><br><br>
+    <h2>Align your skills with opportunities, and seize them with confidence.</h2>
+  </div>
+
+<div class="carousel-container" id="carousel-container">
+  <div class="carousel-track">
+    <a href="engine.html">
+    <div class="options"><img src="img/engineering.jpg"><h3>Engineering</h3></div></a>
+     <a href="gov.html">
+    <div class="options"><img src="img/government.jpg" ><h3>Government Services</h3></div></a>
+     <a href="medical.html">
+    <div class="options"><img src="img/medical.jpg"><h3>Medical Services</h3></div></a>
+     <a href="management.html">
+    <div class="options"><img src="img/management.jpg"><h3>Management</h3></div></a>
+     <a href="law.html">
+    <div class="options"><img src="img/law.jpg"><h3>Public Policy and Law</h3></div></a>
+     <a href="commerce.html">
+    <div class="options"><img src="img/commerce.jpg" ><h3>Banking and Finance</h3></div></a>
+  </div>
+</div></div>
+
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; Career Compass. All rights reserved.</p>
+    
+    <div id="contact-info">
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Email:</strong> hello@careercompass.in</p>
+      <p><strong>Location:</strong> Faridabad, Haryana, India</p>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
+
